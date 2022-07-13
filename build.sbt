@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
 
 val CatsEffectVersion = "2.5.1"
 val WeaverTestVersion = "0.6.10"
-val Http4sVersion = "0.21.33"
+val Http4sVersion = "0.23.13"
 val Fs2Version = "2.5.9"
 
 libraryDependencies += "org.typelevel" %% "cats-effect" % CatsEffectVersion
