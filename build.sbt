@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   )
 
 val CatsEffectVersion = "2.5.1"
-val WeaverTestVersion = "0.6.10"
+val WeaverTestVersion = "0.6.13"
 val Http4sVersion = "0.21.33"
 val Fs2Version = "2.5.9"
 
