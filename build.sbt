@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     name := "gha-steward-test"
   )
 
-val CatsEffectVersion = "2.5.1"
+val CatsEffectVersion = "2.5.5"
 val WeaverTestVersion = "0.6.10"
 val Http4sVersion = "0.21.33"
 val Fs2Version = "2.5.9"
