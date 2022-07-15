@@ -11,7 +11,7 @@ val CatsEffectVersion = "2.5.1"
 val WeaverTestVersion = "0.6.10"
 val Http4sVersion = "0.21.33"
 val Fs2Version = "2.5.9"
-val Log4CatsVersion = "1.7.0"
+val Log4CatsVersion = "2.4.0"
 
 libraryDependencies += "org.typelevel" %% "cats-effect" % CatsEffectVersion
 libraryDependencies += "co.fs2" %% "fs2-core" % CatsEffectVersion
