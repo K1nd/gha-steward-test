@@ -9,5 +9,5 @@ object Main extends IOApp.Simple {
   val logger: SelfAwareStructuredLogger[IO] = Slf4jLogger.getLogger[IO]
 
   override def run: IO[Unit] =
-    logger.info("Starting server") >> TestServer.stream.compile.drain
+    logger.info("Starting server") >> TestServer.stream[IO].compile.drain
 }
