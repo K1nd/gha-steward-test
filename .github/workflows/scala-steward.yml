@@ -11,8 +11,7 @@ jobs:
     name: Launch Scala Steward
     steps:
       - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@v2
+        uses: scala-steward-org/scala-steward-action@v2.21.0
         with:
-          scala-steward-version: "0.15.0"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           other-args: "--add-labels"
