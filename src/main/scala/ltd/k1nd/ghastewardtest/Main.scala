@@ -1,7 +1,7 @@
 package ltd.k1nd.ghastewardtest
 
 import cats.effect.{IO, IOApp}
-import cats.implicits.catsSyntaxFlatMapOps
+import cats.syntax.all._
 import org.typelevel.log4cats.SelfAwareStructuredLogger
 import org.typelevel.log4cats.slf4j.Slf4jLogger
 
