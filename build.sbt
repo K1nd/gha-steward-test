@@ -13,5 +13,5 @@ libraryDependencies += "org.http4s" %% "http4s-dsl" % "0.23.12"
 libraryDependencies += "org.http4s" %% "http4s-blaze-server" % "0.23.12"
 libraryDependencies += "org.typelevel" %% "log4cats-core" % "2.4.0"
 libraryDependencies += "org.typelevel" %% "log4cats-slf4j" % "2.4.0"
-libraryDependencies += "com.disneystreaming" %% "weaver-cats" % "0.7.13" % Test
+libraryDependencies += "com.disneystreaming" %% "weaver-cats" % "0.7.14" % Test
 testFrameworks += new TestFramework("weaver.framework.CatsEffect")
