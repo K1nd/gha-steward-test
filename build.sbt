@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
 
 libraryDependencies += "org.typelevel" %% "cats-effect" % "3.4-389-3862cf0"
 libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.10"
-libraryDependencies += "org.http4s" %% "http4s-dsl" % "0.23.12"
+libraryDependencies += "org.http4s" %% "http4s-dsl" % "0.23.16"
 libraryDependencies += "org.http4s" %% "http4s-blaze-server" % "0.23.12"
 libraryDependencies += "org.typelevel" %% "log4cats-core" % "2.4.0"
 libraryDependencies += "org.typelevel" %% "log4cats-slf4j" % "2.4.0"
